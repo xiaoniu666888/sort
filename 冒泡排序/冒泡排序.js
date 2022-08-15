@@ -1,5 +1,6 @@
-//外层循环，控制趟数，每趟找出一个最大值
+
 function bubbleSort(arr) {
+    //外层循环，控制趟数，每趟找出一个最大值
     for (let i = 0; i < arr.length - 1; i++) {
         //内层循环，控制比较的次数，并且判断两个数的大小
         for (let j = 0; j < arr.length - 1 - i; j++) {
